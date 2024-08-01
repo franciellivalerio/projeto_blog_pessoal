@@ -1,4 +1,3 @@
-import { Post } from '@nestjs/common';
 import { IsNotEmpty } from "class-validator";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { Postagem } from '../../postagem/entities/postagem.entity';
